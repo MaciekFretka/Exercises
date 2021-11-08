@@ -10,7 +10,7 @@ public class WeatherClient {
 
 
     private static final String WEATHER_URL = "http://api.openweathermap.org/data/2.5/";
-    private static final String ApiKey = "c62e38d9483dd8ff6b8a4684ac327ed3";
+    private static final String ApiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
     private RestTemplate restTemplate = new RestTemplate();
 
     public WeatherDto getWeatherForCity(String city){
